@@ -1,16 +1,32 @@
-# React + Vite
+# Dependent Dropdown
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## Question
 
-Currently, two official plugins are available:
+Build a Country → City dependent dropdown using React.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+* Fetch countries and cities from API
+* Select a country
+* Dynamically populate cities based on selected country
+* Search countries using a search box
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Concepts Covered
 
-## Expanding the Oxlint configuration
+* React Hooks (`useState`, `useEffect`)
+* API Fetching
+* Controlled Components
+* Array Methods
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+  * `map()`
+  * `filter()`
+  * `find()`
+* Derived State
+* Conditional Rendering
+
+## Run Locally
+
+```bash
+npm install
+npm run dev
+```
